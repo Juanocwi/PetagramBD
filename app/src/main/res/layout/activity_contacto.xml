@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".menuopciones.contacto">
+    <include android:id="@+id/acvd"
+        layout="@layout/action_barg">
+    </include>
+    <EditText
+        android:id="@+id/edC1"
+        android:layout_width="@dimen/recuadrosC"
+        android:layout_height="wrap_content"
+        android:autofillHints="username"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/textosC"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+    <EditText
+        android:id="@+id/edC2"
+        android:layout_width="@dimen/recuadrosC"
+        android:layout_height="wrap_content"
+        android:autofillHints="username"
+        android:hint="@string/asunto"
+        android:inputType="text"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/textosC"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/edC3"
+        android:layout_width="@dimen/recuadrosC"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/mensaje"
+        android:padding="12dp"
+        android:gravity="top"
+        android:layout_marginTop="8dp"
+        android:inputType="textMultiLine"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/textosC"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+
+        android:maxHeight="140dp"
+        android:scrollbars="vertical"
+        />
+    <Button
+        android:id="@+id/btnC4"
+        android:layout_width="@dimen/recuadrosC"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:theme="@style/ButtonEnviar"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edDC1"/>
+
+
+
+</LinearLayout>

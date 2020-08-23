@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:id="@+id/llPantalla"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include android:id="@+id/acv"
+        layout="@layout/action_bar">
+    </include>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPantalla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="@dimen/fb_marginx"
+            android:layout_marginBottom="@dimen/fb_marginy"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_camara" />
+
+
+
+    <!--        app:layout_anchor="@id/rvPantalla"-->
+<!--        app:layout_anchorGravity="bottom|right|end"-->
+
+
+
+</FrameLayout>
+

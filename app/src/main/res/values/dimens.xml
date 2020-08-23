@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="encabezado">25sp</dimen>
+    <dimen name="nombre">35sp</dimen>
+    <dimen name="likes">45dp</dimen>
+    <dimen name="top">20dp</dimen>
+    <dimen name="left">10dp</dimen>
+    <dimen name="elevation_actinbar">4dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="recuadro_texto">220dp</dimen>
+    <dimen name="image_size">350dp</dimen>
+    <dimen name="like_size">40dp</dimen>
+    <dimen name="ab_boton_marginx">5dp</dimen>
+    <dimen name="ab_boton_marginy">16dp</dimen>
+    <dimen name="fb_marginx">15dp</dimen>
+    <dimen name="fb_marginy">30dp</dimen>
+
+    //dimen contacto
+    <dimen name="recuadrosC">320dp</dimen>
+    <dimen name="textosC">25sp</dimen>
+
+    //dimen acerca de
+    <dimen name="acerca">20sp</dimen>
+    <dimen name="textog">22sp</dimen>
+    <dimen name="nombrea">25sp</dimen>
+
+    //dimen perfil
+    <dimen name="image_sizep">120dp</dimen>
+
+</resources>

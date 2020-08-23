@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="nombre_doodle">Doby</string>
+    <string name="likes_doodle">5</string>
+
+    //menus
+    <string name="menuacercad">Acerca de </string>
+    <string name="menucontacto">Contacto </string>
+
+
+    //Contactos
+    <string name="correo">Correo</string>
+    <string name="asunto">Asunto</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="enviar">Enviar</string>
+    <string name="verif">Mensaje enviado adecuadamente.</string>
+
+
+    //Acerca De
+    <string name="titulo">Acerda de Nuestra App:</string>
+    <string name="intro">Esta app fue desarrollada como un requisito de la
+    del curso de programacion de apps en Android de Coursera. \n Su autor es:</string>
+    <string name="autor"> Juan Antonio Ocampo Wilches</string>
+    <string name="descripcion">Ingeniero de la ciudad de Manizales, Colombia.
+        Amante de la programacion y nuevos temas </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
